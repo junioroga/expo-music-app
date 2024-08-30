@@ -1,12 +1,10 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { useContext, useEffect, useState } from 'react';
 import {
-  View,
   StyleSheet,
   Text,
   ScrollView,
   TouchableOpacity,
-  FlatList,
   Alert,
 } from 'react-native';
 import PlayListInputModal from '../components/PlayListInputModal';

@@ -2,10 +2,8 @@ import React, { useContext, useState } from 'react';
 import {
   View,
   StyleSheet,
-  Modal,
   FlatList,
   Text,
-  Dimensions,
   TouchableOpacity,
 } from 'react-native';
 import { selectAudio } from '../misc/audioController';
